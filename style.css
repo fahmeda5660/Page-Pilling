@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    margin-bottom: 14px;
+}
+/* .red{
+    background: red;
+}
+.green{
+    background:green;
+}
+.blue{
+    background: blue;
+} */
+img{
+    height: 500px;
+    width: 100%;
+    outline: none;
+}
+.line{
+    height: 4px;
+    width: 32px;
+    background: black;
+    position: relative;
+    margin: auto;
+    border-radius: 7px;
+}
+.line::before{
+    position: absolute;
+    content: "";
+    width: 46px;
+    height: 4px;
+    background: #0cc747;
+    right: 134%;
+    bottom: 0%;
+    border-radius: 7px;
+}
+.line::after{
+    position: absolute;
+    content: '';
+    background: #0cc747;
+    height: 4px;
+    width: 46px;
+    right: -185%;
+    bottom: 0%;
+    border-radius: 7px;
+}
